@@ -1,8 +1,17 @@
+:root {
+  --brand-color: #212121;
+  --second-color: #ffffff;
+  --active-color: #2196f3;
+  --description-color: #757575;
+  --second-background-color: #2f303a;
+  --third-background-color: #f5f4fa;
+}
+
 .contacts {
   text-decoration: none;
   color: var(--description-color);
   width: 135px;
-  height: 16;
+  height: 16px;
   font-weight: 500;
   font-size: 14px;
 }
@@ -99,8 +108,6 @@ button:focus {
   border: var(--third-background-color);
   font-weight: 500;
   font-size: 16px;
-
-  letter-spacing: 3%;
 }
 
 .main-title-web {
@@ -127,8 +134,6 @@ button:focus {
   border: var(--third-background-color);
   font-weight: 500;
   font-size: 16px;
-
-  letter-spacing: 3%;
 }
 
 .style-button-main-page {
@@ -180,15 +185,6 @@ button:focus {
   font-size: 16px;
 
   color: var(--description-color);
-}
-
-:root {
-  --brand-color: #212121;
-  --second-color: #ffffff;
-  --active-color: #2196f3;
-  --description-color: #757575;
-  --second-background-color: #2f303a;
-  --third-background-color: #f5f4fa;
 }
 
 .none-decoration-ul {
